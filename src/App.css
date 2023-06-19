@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  overflow-x: hiddenn!important;
+}
+/* **********************navbar************************* */
+.brand-login{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px -8px 15px;
+}
+ .navbar .brand-login .brand-name h1{
+    font-size: 27px;
+ }
+ .navbar .brand-login .brand-name h1 span{
+  color: rgb(85 87 232 / 84%);
+ }
+ .navbar .brand-login .login-signup button{
+
+   background-color:rgb(85 87 232 / 84%) ;
+   margin-left: 10px;
+   border-radius: 5px;
+   border: none;
+   padding: 5px 18px 5px 18px;
+  }
+  .navbar .brand-login .login-signup button a{
+    font-size: 20px;
+    text-decoration: none;
+  color: aliceblue;
+ }
+  /* ********************explorepage******************** */
+
+  .explore-page{
+     background-image: url("assets/hero-image.svg");
+     /* background-color: aqua; */
+    
+    height: 84vh;
+   
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-color:rgb(85 87 232 / 84%) ;
+
+  }
+  .container{
+    width: 95%;
+  }
+  .info-expo-main{
+    display: flex;
+    align-items: center;
+   
+  }
+  .info-expo{
+    color: aliceblue ;
+  }
+  .info-expo h1{
+    font-size: 50px;
+  }
+  .info-expo p{
+    font-size: 25px;
+  }
+  .info-expo button{
+    font-size: 21px;
+    background-color: aliceblue;
+    color: rgb(85 87 232 / 84%) ;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  /* *******************footer****************** */
+
+  .footer{
+       padding-top: 30px;
+       padding-bottom: 30px;
+       display: flex;
+       justify-content: center;
+       color: aliceblue;
+       font-size: 17px;
+       background-color: rgba(32, 32, 32, 0.768);
+
+  }
+
+  .footer a{
+    color: white
+  }
